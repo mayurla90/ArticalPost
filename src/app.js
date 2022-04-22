@@ -2,9 +2,9 @@ const express = require('express')
 const bcrypt = require('bcryptjs')
 require('./db/mongoose')
 
-const userRouter = require('./routers/user')
-const topicRouter = require('./routers/topic')
-const articalRouter = require('./routers/artical')
+const userRouter = require('./routes/user')
+const topicRouter = require('./routes/topic')
+const articalRouter = require('./routes/artical')
 
 const app = express();
 
